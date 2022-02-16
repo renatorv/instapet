@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:instaped/app/modules/home/home.dart';
@@ -16,10 +14,10 @@ class UiConfig {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         primary: const Color(0xFFF5591F),
-        // textStyle: const TextStyle(fontFamily: ''),        
-      ),      
+        // textStyle: const TextStyle(fontFamily: ''),
+      ),
     ),
-    bottomNavigationBarTheme:BottomNavigationBarThemeData(
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
       selectedItemColor: Colors.black,
       selectedIconTheme: const IconThemeData(color: Colors.black),
       selectedLabelStyle: textBold,
