@@ -27,3 +27,5 @@ class MyApp extends StatelessWidget {
 /// 46 minutos do dia 1 no curso de 22
 /// 
 /// Parei em 55 minutos do curso de 22
+/// 
+/// Lotties Files: https://lottiefiles.com/private/animations
