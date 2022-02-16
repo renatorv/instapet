@@ -31,9 +31,11 @@ dependencies:
   get:
   flutter_icons:
   grouped_buttons:
-  intl:
+  intl: ^0.17.0
   shared_preferences:
   modal_bottom_sheet:
+  get_storage: ^2.0.3
+  validatorless: ^1.2.1
 
 dev_dependencies:
   flutter_test:

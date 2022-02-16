@@ -1,7 +1,6 @@
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:instaped/app/componts/instaped_input.dart';
+import 'package:instaped/app/componts/instapet_textformfield.dart';
 import './login_controller.dart';
 
 class LoginPage extends GetView<LoginController> {
@@ -23,14 +22,7 @@ class LoginPage extends GetView<LoginController> {
               SizedBox(
                 child: Column(
                   children: [
-                    InstapedInput(
-                      label: 'E-mail',
-                    ),
-                    InstapedInput(
-                      suffixIcon: Icon(FontAwesome.key),
-                      suffixIconOnPressed: () {},
-                      label: 'Senha',
-                    ),
+                    InstapetTextformfield(label: 'E-mail'),
                   ],
                 ),
               ),

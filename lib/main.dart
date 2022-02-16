@@ -16,3 +16,14 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+/// Criação do rest client:
+/// 37 minutos do dia 1 no curso de 22
+/// 
+/// Utilização do Get Storage:
+/// 43 minutos do dia 1 no curso de 22
+/// 
+///  Utilização do Textformfield:
+/// 46 minutos do dia 1 no curso de 22
+/// 
+/// Parei em 55 minutos do curso de 22
