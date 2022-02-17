@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:instaped/app/modules/home/home.dart';
 import 'package:instaped/app/modules/login/login.dart';
+import 'package:instaped/app/modules/register/register_bindings.dart';
+import 'package:instaped/app/modules/register/register_page.dart';
 import 'package:instaped/app/modules/splash/splash.dart';
 
 class UiConfig {
@@ -9,6 +11,7 @@ class UiConfig {
   UiConfig._();
 
   static final appTheme = ThemeData(
+    fontFamily: 'Roboto',
     primaryColor: Color(0xFFF5591F),
     primarySwatch: Colors.orange,
     elevatedButtonTheme: ElevatedButtonThemeData(
@@ -43,6 +46,11 @@ class UiConfig {
       name: LoginPage.ROUTE_PAGE,
       page: () => LoginPage(),
       binding: LoginBindings(),
+    ),
+    GetPage(
+      name: RegisterPage.ROUTE_PAGE,
+      page: () => RegisterPage(),
+      binding: RegisterBindings(),
     ),
   ];
 }
