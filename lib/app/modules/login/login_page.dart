@@ -4,7 +4,7 @@ import 'package:instaped/app/componts/instapet_appbar.dart';
 // import 'package:instaped/app/componts/instapet_buttom.dart';
 import 'package:instaped/app/componts/instapet_textformfield.dart';
 import 'package:instaped/app/config/ui_config.dart';
-import 'package:social_login_buttons/social_login_buttons.dart';
+// import 'package:social_login_buttons/social_login_buttons.dart';
 import './login_controller.dart';
 
 class LoginPage extends GetView<LoginController> {
@@ -56,19 +56,19 @@ class LoginPage extends GetView<LoginController> {
                     //   ),
                     // ),
                     const SizedBox(height: 30),
-                    SocialLoginButton(
-                      buttonType: SocialLoginButtonType.google,
-                      onPressed: () {},
-                      text: 'Login com Google',
-                      borderRadius: 26,
-                    ),
+                    // SocialLoginButton(
+                    //   buttonType: SocialLoginButtonType.google,
+                    //   onPressed: () {},
+                    //   text: 'Login com Google',
+                    //   borderRadius: 26,
+                    // ),
                     const SizedBox(height: 10),
-                    SocialLoginButton(
-                      buttonType: SocialLoginButtonType.facebook,
-                      onPressed: () {},
-                      text: 'Login com Facebook',
-                      borderRadius: 26,
-                    ),
+                    // SocialLoginButton(
+                    //   buttonType: SocialLoginButtonType.facebook,
+                    //   onPressed: () {},
+                    //   text: 'Login com Facebook',
+                    //   borderRadius: 26,
+                    // ),
                     const Spacer(),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,

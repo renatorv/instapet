@@ -38,3 +38,33 @@ class InstapetButtom extends StatelessWidget {
     );
   }
 }
+
+
+// TEstar
+
+// SizedBox(
+//                     width: responsive.dp(22),
+//                     height: responsive.dp(5),
+//                     child: ElevatedButton(
+//                       onPressed: () {},
+//                       child: Row(
+//                         mainAxisAlignment: MainAxisAlignment.spaceAround,
+//                         children: [
+//                           Image.asset('assets/icons/facebook_icon.png', width: responsive.dp(3.8), height: responsive.dp(3.8),),
+//                           Text(
+//                             'Login Facebook',
+//                             style: TextStyle(
+//                               fontSize: responsive.dp(1.8),
+//                               fontWeight: FontWeight.bold,
+//                               color: Colors.black
+//                             ),
+//                           ),
+//                         ],
+//                       ),
+//                       style: ElevatedButton.styleFrom(
+//                         elevation: 10,
+//                         shape: StadiumBorder(),
+//                         primary: Colors.white, // Color(0xFF1777F2),
+//                       ),
+//                     ),
+//                   )
