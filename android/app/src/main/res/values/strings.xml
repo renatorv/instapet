@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Projeto App</string>
-  <string name="facebook_app_id">297430792374416</string> 
-  <string name="fb_login_protocol_scheme">fb297430792374416</string>
+  <string name="facebook_app_id">346870110680038</string> 
+  <string name="fb_login_protocol_scheme">fb346870110680038</string>
+  <string name="facebook_client_token">32a1e43d4256d7ea4e1d93e0273bf21c</string>
 </resources>
 
 

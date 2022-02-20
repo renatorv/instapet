@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:instaped/app/componts/instapet_appbar.dart';
+import 'package:instaped/app/componts/instapet_buttom.dart';
 // import 'package:instaped/app/componts/instapet_buttom.dart';
 import 'package:instaped/app/componts/instapet_textformfield.dart';
 import 'package:instaped/app/config/ui_config.dart';
@@ -12,6 +13,8 @@ class LoginPage extends GetView<LoginController> {
 
   @override
   Widget build(BuildContext context) {
+    final controller = Get.put(LoginController());
+
     return Scaffold(
       appBar: InstapetAppbar(elevation: 0),
       backgroundColor: Colors.white,
@@ -38,6 +41,46 @@ class LoginPage extends GetView<LoginController> {
                     const SizedBox(height: 30),
                     InstapetTextformfield(label: 'Senha'),
                     const SizedBox(height: 50),
+
+                    Center(
+                      child: InstapetButtom(
+                        label: 'FACEBOOK',
+                        onPressed: () {
+                          controller.loginFacebook();
+                        },
+                      ),
+                    ),
+
+                    const SizedBox(height: 12),
+
+                    Obx(() {
+                      return Center(
+                        child: Text(controller.googleAccount.value == null
+                            ? 'não autenticado'
+                            : 'autenticado'),
+                      );
+                    }),
+
+                    const SizedBox(height: 12),
+
+                    Center(
+                      child: FloatingActionButton.extended(
+                        onPressed: () {
+                          controller.loginGoogle();
+                        },
+                        icon: Image.asset(
+                          'assets/images/google_icon.png',
+                          height: 32,
+                          width: 32,
+                        ),
+                        label: Text(
+                          'Login com Google',
+                        ),
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
+                      ),
+                    ),
+
                     // Center(
                     //   child: InstapetButtom(
                     //     label: 'ENTRAR',

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "128337853830",
+    "project_id": "projeto-app-cc64a",
+    "storage_bucket": "projeto-app-cc64a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128337853830:android:eac971bf0a60dfefcc4007",
+        "android_client_info": {
+          "package_name": "br.com.instaped.instaped"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128337853830-vnvek00k8ervbc2jud3npn629fjpgl7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn7lozr7clR4Rpqc0jtyT9j6XrVxAKZmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128337853830-vnvek00k8ervbc2jud3npn629fjpgl7q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "128337853830-e6a5lfd5jmfmgga88hasuk70vmbt5pa9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.instaped.instaped"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
