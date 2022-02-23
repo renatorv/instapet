@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:instaped/app/config/ui_config.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:instaped/app/core/bindings/application_binding.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: UiConfig.appTheme,
       getPages: UiConfig.routes,
+      initialBinding: ApplicationBinding(),
     );
   }
 }

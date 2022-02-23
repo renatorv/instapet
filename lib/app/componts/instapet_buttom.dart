@@ -6,6 +6,7 @@ class InstapetButtom extends StatelessWidget {
   final double? width;
   final double? height;
   final Color? color;
+  final Color? fontColor;
 
   const InstapetButtom({
     Key? key,
@@ -14,6 +15,7 @@ class InstapetButtom extends StatelessWidget {
     this.width,
     this.height = 50,
     this.color,
+    this.fontColor = Colors.white,
   }) : super(key: key);
 
   @override
@@ -26,8 +28,9 @@ class InstapetButtom extends StatelessWidget {
         child: Text(
           label,
           style: TextStyle(
-            fontSize: 14,
+            fontSize: 18,
             fontWeight: FontWeight.bold,
+            color: fontColor,
           ),
         ),
         style: ElevatedButton.styleFrom(
