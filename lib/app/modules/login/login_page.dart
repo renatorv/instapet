@@ -49,7 +49,7 @@ class LoginPage extends GetView<LoginController> {
                           width: context.width,
                         ),
                       ),
-                      const SizedBox(height: 60),
+                      const SizedBox(height: 20),
                       Center(
                         child: Text(
                           '- Ou acesse com sua rede social -',
@@ -59,7 +59,7 @@ class LoginPage extends GetView<LoginController> {
                           ),
                         ),
                       ),
-                      const SizedBox(height: 35),
+                      const SizedBox(height: 10),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [

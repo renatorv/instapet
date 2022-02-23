@@ -71,5 +71,8 @@ class RegisterController extends GetxController with LoaderMixin, MessageMixin {
 }
 
 
-parei em 1h e 17 do dia 2
-Realizar o cadastro!!
+// parei em 1h e 17 do dia 2
+// Realizar o cadastro!!
+//
+Cadastro de novo usuário OK
+fazer login
