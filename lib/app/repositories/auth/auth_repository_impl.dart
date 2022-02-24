@@ -65,6 +65,17 @@ class AuthRepositoryImpl implements AuthRepository {
       throw RestClientException('Erro ao autenticar usuário.');
     }
 
+    log('\n');
+    print(result.body);
+    TRATAR
+    // {result: {username: teste, email: teste@gmail.com, name: Teste, createdAt: 2022-02-24T11:41:15.928Z,
+    //updatedAt: 2022-02-24T11:41:15.928Z,
+    //ACL: {*: {read: true},
+    //eKWnw14fCQ: {read: true, write: true}},
+    //sessionToken: r:3010f7fc38e2084e2ccb6036cca503c5,
+    //objectId: eKWnw14fCQ, __type: Object, className: _User}}
+    log(result.body);
+
     return UserModel.fromMap(result.body);
   }
 }

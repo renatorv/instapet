@@ -14,9 +14,9 @@ class RegisterController extends GetxController with LoaderMixin, MessageMixin {
 
   @override
   void onInit() {
+    super.onInit();
     loaderListener(_loading);
     messageListener(_message);
-    super.onInit();
   }
 
   RegisterController({
@@ -48,7 +48,7 @@ class RegisterController extends GetxController with LoaderMixin, MessageMixin {
       );
     } on RestClientException catch (e, s) {
       _loading.toggle();
-      log('Erro ao registra usuário', error: e, stackTrace: s);
+      log('Erro ao registrar usuário', error: e, stackTrace: s);
       _message(
         MessageModel(
           title: 'Erro',
@@ -62,7 +62,7 @@ class RegisterController extends GetxController with LoaderMixin, MessageMixin {
       _message(
         MessageModel(
           title: 'Erro',
-          message: 'Erro ao registra usuário',
+          message: 'Erro ao registrar usuário',
           type: MessageType.error,
         ),
       );
@@ -74,5 +74,5 @@ class RegisterController extends GetxController with LoaderMixin, MessageMixin {
 // parei em 1h e 17 do dia 2
 // Realizar o cadastro!!
 //
-Cadastro de novo usuário OK
-fazer login
+// Cadastro de novo usuário OK
+// fazer login

@@ -9,7 +9,7 @@ class InstapetAppbar extends AppBar {
           backgroundColor: Colors.white,
           elevation: elevation,
           centerTitle: true,
-          title: Text(
+          title: const Text(
             'InstaPet',
             style: TextStyle(
               fontFamily: 'IndieFlower',
