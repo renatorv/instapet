@@ -18,6 +18,8 @@ class AuthService extends GetxService {
 
       _isLogged(value != null);
     });
+
+    ever(_isLogged, callback) {}
   }
 
   void logout() => _getStorage.write(Constants.USER_KEY, null);
