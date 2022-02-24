@@ -4,7 +4,8 @@ import 'package:instaped/app/config/ui_config.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:instaped/app/core/bindings/application_binding.dart';
 
-void main() async {
+Future<void> main() async {
+  await GetStorage.init();
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(MyApp());
